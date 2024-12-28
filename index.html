@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medilab Services</title>
+    <!-- <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css"
+        integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter-x"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-linkedin"></i>
+    <i class="bi bi-phone"></i>
+    <i class="bi bi-envelope"></i>
+    <i class="bi bi-clipboard-data"></i>
+    <i class="bi bi-gem"></i> -->
+    <div id="nav1" class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex mt-2">
+                    <div class="d-flex">
+                        <i id="navicon" class="bi bi-envelope">&nbsp;</i>
+                        <p>osuindedev</p>
+                    </div>
+                    &nbsp; 
+                    <div class="d-flex">
+                        <i id="navicon" class="bi bi-phone"></i>
+                        <p>+234 816 844 5924</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2" id="nav1icon">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-facebook ms-1"></i></a>
+                    <a href="#"><i class="bi bi-instagram ms-1"></i></a>
+                    <a href="#"><i class="bi bi-linkedin ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Medilab</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item1">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#department">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#doctor">Doctors</a>
+                    </li>
+                    <li class="nav-item3 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Locations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">LAGOS(HEAD OFFICE)</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">ABUJA</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">PORT HARCOUT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">ABIA</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">NEW YORK</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li><button class="button" id="bookings01">Make an Appointment</button></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero section
+    <div class="hero-section  bg-light">
+        <div class="container p-5 ">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-text">
+                        <h1>Enjoy Your Healthy <br> Delicious Food</h1>
+                        <p>Your Satisfaction is our <br> Priority</p>
+                        <a href="#bookings01" class="btn btn-danger">Book a Table</a>
+                        <a href="#" class="Watch-video ms-1"><i class="bi bi-play-circle text-danger me-1"></i>Watch
+                            Video</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 hero-img">
+                    <img src="boostrap-images/images/hero-img (1).png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- end of hero section -->
+
+    <div class="container-fluid" id="img01">
+        <div class="">
+            <div class="">
+                <div class="menu_field pt-4 pb-5">
+                    <div class="container" data-aos="fade-up">
+                        <div class="container01 mt-5">
+                            <h3 data-aos="zoom-in-right">WELCOME TO MEDILAB</h3>
+                            <p data-aos="zoom-in-right"> We are team of talented doctors making treatments better with Physical and Online Services.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card1"  data-aos="fade-up">
+                                    <div class="card-body1">
+                                        <h5 class="card-title">Why Choose Medilab?</h5>
+                                        <p class="card-text">Medilab Health Care offers a reliable and comprehensive approach to managing your health. With state-of-the-art <br> facilities, expert medical professionals, <br> and  a wide range of diagnostic and treatment services, Medilab ensures that you receive the highest standard of care. <br>Prioritize your well-being and ensure peace of mind by choosing Medilab</p>
+                                        <button class="text-center">Learn More ></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" id="card01" data-aos="fade-up">
+                                    <div class="card-body" id="cardbody01">
+                                        <i class="bi bi-clipboard-data"></i>
+                                        <h5 class="card-title">Rankings</h5>
+                                        <p class="card-text mt-4">In the year 2022 and 2023 Medilab Health Care was ranked 6th globally in successful surgeries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" id="card01" data-aos="fade-up">
+                                    <div class="card-body" id="cardbody01">
+                                        <i class="bi bi-gem"></i>
+                                        <h5 class="card-title">Badge</h5>
+                                        <p class="card-text mt-4">We are Certified by the World Health Organization which makes us the right choice for your treatments and health care services.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" id="card01" data-aos="fade-up">
+                                    <div class="card-body" id="card-body01">
+                                        <i class="bi bi-envelope"></i>
+                                        <h5 class="card-title">Messages</h5>
+                                        <p class="card-text mt-4">At  Medilab Health Care we offer physical and online services with a very fast response, we've made availabity for more doctors to enable faster response to our clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- beginning of about section -->
+    <section class="about" id="about">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <img src="images/img02.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div data-aos="fade-up">
+                        <h2>About Us</h2>
+                        <p> Whether you're looking for preventive check-ups, accurate lab tests, or specialized treatments, Medilab provides personalized attention to meet your individual health needs. Trust Medilab Health Care for timely, efficient, and compassionate healthcare solutions. Prioritize your well-being and ensure peace of mind by choosing Medilab as your healthcare partner.</p>
+                        <div id="abouttxt">
+                            <div class=" d-flex">
+                                <i class="bi bi-patch-check-fill me-3"></i>
+                                <div>
+                                    <h4>We are certified by the W.H.O</h4>
+                                    <p>Medilab Health Care got certified by the World Health Organization 2006 after inspection</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-journal-medical me-3"></i>
+                                <div>
+                                    <h4>Records</h4>
+                                    <p>Here in Medilab Health Care we keep the records of all our clients to keep track of your health</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <i class="bi bi-heart-pulse-fill me-3"></i>
+                                <div>
+                                    <h4>Life Recoveries</h4>
+                                    <p>We have averagely 1670 surgeries in a year which makes us the right choice for your health care.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid bg-light">
+        <div class="container pb-5 pt-5 mt-5">
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="card" id="card02">
+                        <div class="card-body">
+                            <i class="bi bi-person-circle"></i>
+                            <h5 class="card-title">85</h5>
+                            <p class="card-text">Doctors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="card" id="card02">
+                        <div class="card-body">
+                            <i class="bi bi-hospital"></i>
+                            <h5 class="card-title">18</h5>
+                            <p class="card-text">Departments</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="card" id="card02">
+                        <div class="card-body">
+                            <i class="bi bi-segmented-nav"></i>
+                            <h5 class="card-title">12</h5>
+                            <p class="card-text">Research Labs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="card" id="card02">
+                        <div class="card-body">
+                            <i class="bi bi-award"></i>
+                            <h5 class="card-title">150</h5>
+                            <p class="card-text">Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="services">
+        <div class="services" data-aos="fade-up">
+            <h2>Services</h2>
+            <p>Your Health Care is in Safe Hands with Medilab Services</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-heart-pulse"></i>
+                            <h5 class="card-title">Doctors</h5>
+                            <p class="card-text mt-2"> These services include routine check-ups, diagnosis and treatment of illnesses, management of chronic conditions, preventive care, and health counseling.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-activity"></i>
+                            <h5 class="card-title">Nurses</h5>
+                            <p class="card-text mt-2"> They assist with daily activities like administering medications, monitoring vital signs, and assisting with wound care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-life-preserver"></i>
+                            <h5 class="card-title">Surgeons</h5>
+                            <p class="card-text mt-2">They perform operations to correct injuries, remove tumors, repair damaged tissues, and treat diseases that cannot be managed by other means. Surgeons also assess patients before surgery, explain the procedures.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-capsule"></i>
+                            <h5 class="card-title">Lab Scientist</h5>
+                            <p class="card-text mt-2">Lab scientists play a vital role in healthcare by conducting tests and analyzing samples to diagnose and monitor diseases. They work with blood, urine, tissue, and other specimens to provide accurate results that guide doctors in treatment decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-file-medical"></i>
+                            <h5 class="card-title">Pediatrician</h5>
+                            <p class="card-text mt-2">They provide a wide range of services, including routine health check-ups, vaccinations, and developmental screenings. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"  data-aos="zoom-in-right">
+                    <div class="card" id="card03">
+                        <div class="card-body" id="cardbody03">
+                            <i class="bi bi-search-heart"></i>
+                            <h5 class="card-title">Gynecologists</h5>
+                            <p class="card-text mt-2"> They conduct routine exams, including pap smears and pelvic exams, to monitor reproductive health and detect abnormalities early</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="appointments" data-aos="fade-up">
+        <h2>Appointment</h2>
+        <p>Your Health Care is in Safe Hands with Medilab Services</p>
+    </div>
+    <div class="container">
+        <div>
+            <div class="col-md-12 mt-4">
+                <form action="index.html" method="post">
+                    <div class="row" id="appointmentsformrow1">
+                        <div class="col-md-4"  data-aos="zoom-in-right">
+                            <label for="name"></label>
+                            <input class="name" type="text" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-4"  data-aos="zoom-in-right">
+                            <label for="email"></label>
+                            <input class="email" type="text" placeholder="Your Email">
+                        </div>
+                        <div class="col-md-4"  data-aos="zoom-in-right">
+                            <label for="phone"></label>
+                            <input class="phone" type="text" placeholder="Your Phone">
+                        </div>
+                    </div>
+                    <div class="row" id="appointmentsformrow2">
+                        <div class="col-md-4"  data-aos="zoom-in-right">
+                            <label for="month"></label>
+                            <input class="month" type="month">
+                        </div>
+                        <div class="col-md-4 mt-4"  data-aos="zoom-in-right">
+                            <select name="department">
+                                <option value="Google">Department 1</option>
+                                <option value="friend">Department 2</option>
+                                <option value="Facebook">Department 3</option>
+                                <option value="Please Choose" selected>Select Department</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mt-4"  data-aos="zoom-in-right">
+                            <select name="doctor">
+                                <option value="Google">Doctor 1</option>
+                                <option value="friend">Doctor 2</option>
+                                <option value="Facebook">Doctor 3</option>
+                                <option value="Please Choose" selected>Select Doctor</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12"  data-aos="zoom-in-right">
+                            <textarea name="comment" id="comment"
+                                style="width: 100%;height: 8pc; margin-top: 1em;margin-bottom: 1em;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center"  data-aos="zoom-in-right">
+                            <button id="bookingbtn">Book a Table</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Departments -->
+   <section id="department">
+    <div class="departments" data-aos="fade-up">
+        <h2>Departments</h2>
+        <p>Your Health Care is in Safe Hands with Medilab Services.</p>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div id="dept1" class="col-md-3" data-aos="zoom-in-right">
+                <ul>
+                    <li>Cardiology</li>
+                    <li class="mt-4">Pediatrics</li>
+                    <li class="mt-4">Surgeries</li>
+                    <li class="mt-4">Lab Scientists</li>
+                    <li class="mt-4">Eye care</li>
+                    &nbsp;
+                </ul>
+            </div>
+            <div id="dept2" class="col-md-6" data-aos="zoom-in-right">
+                <h3>Cardiolody</h3>
+                <p>Cardiology is a branch of medicine focused on diagnosing, treating, and preventing heart and
+                    cardiovascular diseases.</p>
+                <br>
+                <p>It encompasses a wide range of conditions, including heart attacks, arrhythmias, heart failure,
+                    congenital heart defects, and vascular disorders. Cardiologists use various diagnostic tools such as
+                    ECGs, echocardiograms, stress tests, and advanced imaging techniques to assess heart health. </p>
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/img03.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+   </section>
+    <section id="doctor">
+        <div class="doctors" data-aos="fade-up">
+            <h2>Doctors</h2>
+            <p>Your Health Care is in Safe Hands with Medilab Services.</p>
+        </div>
+        <div class=container mt-5>
+            <div class=row row-cols-1 row-cols-md-3 g-4>
+                <div class=col-md-6 data-aos="zoom-in-right">
+                    <div class="card shadow p-3 mb-5 ms-4">
+                        <img src="images/doctors-1.jpg" id="doctorimg" alt="Card Image">
+                        <div id="doctortext" class="card-body text-center">
+                            <h5 class=card-title>Walter White</h5>
+                            <p>Chief Medical Officer</p>
+                            <p class=card-text2>5years experience on the field.</p>
+                            <div id="doctoricon">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook ms-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram ms-1"></i></a>
+                                <a href="#"><i class="bi bi-linkedin ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-md-6 data-aos="zoom-in-right">
+                    <div class="card shadow p-3 mb-5 ms-3">
+                        <img src="images/doctors-2.jpg" id="doctorimg" alt="Card Image">
+                        <div id="doctortext" class="card-body text-center">
+                            <h5 class=card-title>Sarah Jhonson</h5>
+                            <p>Lab Scientist</p>
+                            <p class=card-text2>Well known for her accurate results after a lab test.</p>
+                            <div id="doctoricon">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook ms-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram ms-1"></i></a>
+                                <a href="#"><i class="bi bi-linkedin ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=row row-cols-1 row-cols-md-3 g-4>
+                <div class=col-md-6 data-aos="zoom-in-right">
+                    <div class="card shadow p-3 mb-5">
+                        <img src="images/doctors-3.jpg" id="doctorimg" alt="Card Image">
+                        <div id="doctortext" class="card-body text-center">
+                            <h5 class=card-title>William Anderson</h5>
+                            <p>Cardiology</p>
+                            <p class=card-text2>A professional Cardiologist well known in europe.</p>
+                            <div id="doctoricon">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook ms-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram ms-1"></i></a>
+                                <a href="#"><i class="bi bi-linkedin ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=col-md-6 data-aos="zoom-in-right">
+                    <div class="card shadow p-3 mb-5">
+                        <img src="images/doctors-4.jpg" id="doctorimg" alt="Card Image">
+                        <div id="doctortext" class="card-body text-center">
+                            <h5 class=card-title>Amanda Jepson</h5>
+                            <p>Neurosurgeon</p>
+                            <p class=card-text2>150+ succesful surgeries, A global personality.</p>
+                            <div id="doctoricon">
+                                <a href="#"><i class="bi bi-twitter ms-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook ms-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram ms-1"></i></a>
+                                <a href="#"><i class="bi bi-linkedin ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ -->
+    <div class="body">
+        <div class="faq-container"  data-aos="fade-up">
+            <div class="FAQ"  data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Your Health Care is in Safe Hands with Medilab Services.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">What is the purpose of this website?</button>
+                <div class="faq-answer">
+                    <p>This website is designed to help users with various tasks such as providing information,
+                        answering queries, and assisting with specific problems.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How can I contact support?</button>
+                <div class="faq-answer">
+                    <p>You can contact support by emailing support@website.com or calling our customer service number at
+                        123-456-7890.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">What are the website’s hours of operation?</button>
+                <div class="faq-answer">
+                    <p>Our website is available 24/7, but customer support is available Monday to Friday from 9 AM to 6
+                        PM.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How do I reset my password?</button>
+                <div class="faq-answer">
+                    <p>To reset your password, click on the "Forgot Password" link on the login page, and follow the
+                        instructions sent to your email.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- TESTIMONIAL -->
+    <div class="testimonialbody"  data-aos="fade-up">
+        <div class="testimonial-section">
+            <h1>Testimonials</h1>
+
+            <div class="testimonial-container">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"This is the best service I have ever used! Highly recommend to
+                        everyone."</p>
+                    <p class="testimonial-author">- John Doe, CEO of Company XYZ</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Amazing experience, would definitely come back for more services."</p>
+                    <p class="testimonial-author">- Jane Smith, Founder of TechCo</p>
+                </div>
+
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"The team is professional, and the product exceeded all my
+                        expectations."</p>
+                    <p class="testimonial-author">- Alex Brown, Entrepreneur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery"  data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p>Your Health Care is in Safe Hands with Medilab Services.</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row p-2 d-flex">
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-4.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row p-1">
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-5.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-6.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-7.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-3" data-aos="zoom-in-right">
+                <img src="images/gallery-8.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+   <section id="contact">
+    <div class="contact"  data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Your Health Care is in Safe Hands with Medilab Services.</p>
+    </div>
+
+    <div class="container-fluid">
+        <iframe data-aos="zoom-in-right"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126857.16035296707!2d3.2417674433593655!3d6.485386500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d14836d3d0f%3A0x1293531f9ff1f5e7!2sCanada%20Restaurant!5e0!3m2!1sen!2sng!4v1733842147576!5m2!1sen!2sng"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   </section>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <i class="bi bi-geo-alt me-2"></i>
+                                <h4>Address</h4>
+                            </div>
+                            <p class="footer-address">A108 Adam Street
+                                <br>
+                                New York, NY 535022
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <i class="bi bi-telephone me-2"></i>
+                                <h4>Contact</h4>
+                            </div>
+                            <p class="footer-contact">Phone: +1 5589 55488 55
+                                <br>
+                                Email: info@example.com
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="d-flex">
+                                <i class="bi bi-clock me-2"></i>
+                                <h4>Opening Hours</h4>
+                            </div>
+                            <p class="footer-openinghours">Mon-Sat: 11AM - 23PM
+                                <br>
+                                Sunday: Closed
+                            </p>
+                        </div>
+                        <div class="col-md-12 footer-follow">
+                            <h4>Follow Us</h4>
+                            <i class="bi bi-twitter-x"></i> &nbsp;
+                            <i class="bi bi-facebook"></i> &nbsp;
+                            <i class="bi bi-instagram"></i> &nbsp;
+                            <i class="bi bi-linkedin"></i> &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <form action="index.html" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="name"></label>
+                                <input class="name" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email"></label>
+                                <input class="email" type="text" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-">
+                                <label for="subject"></label>
+                                <input class="subject" type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="comment" id="comment"
+                                    style="width: 100%;height: 100px; margin-top: 1em;margin-bottom: 1em;"></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn04">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row mt-5 mb-5"  data-aos="fade-up">
+            <div class="col-md-4 mt-4">
+                <div class="d-flex" data-aos="zoom-in-right">
+                    <div>
+                        <i class="bi1 bi-geo-alt me-3 mt-2"></i>
+                    </div>
+                    <div class="contact01">
+                        <h5>Address</h5>
+                        <p>A108 Adam Street
+
+                            New York, NY 535022
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex mt-2" data-aos="zoom-in-right">
+                    <div>
+                        <i class="bi1 bi-telephone me-3 mt-2"></i>
+                    </div>
+                    <div class="contact01">
+                        <h5>Contact</h5>
+                        <p>Phone: +234 816 844 5924</p>
+                    </div>
+                </div>
+                <div class="d-flex mt-2" data-aos="zoom-in-right">
+                    <div>
+                        <i class="bi1 bi-clock me-3 mt-2"></i>
+                    </div>
+                    <div class="contact01">
+                        <h5>Email Us</h5>
+                        <p>Email: osuindefavour@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <form action="index.html" method="post">
+                    <div class="row">
+                        <div class="col-md-6" data-aos="zoom-in-right">
+                            <label for="name"></label>
+                            <input class="name" type="text" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6" data-aos="zoom-in-right">
+                            <label for="email"></label>
+                            <input class="email" type="text" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" data-aos="zoom-in-right">
+                            <label for="subject"></label>
+                            <input class="subject" type="text" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" data-aos="zoom-in-right">
+                            <textarea name="comment" id="comment" placeholder="Message"
+                                style="width: 100%;height: 150px; margin-top: 1em;margin-bottom: 1em;"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center" data-aos="zoom-in-right">
+                        <button class="btn04">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid bg-light">
+            <div class="container pt-4 pb-3">
+                <div class="row">
+                    <div class="col-md-4" id="footerheading1">
+                        <h4>Medilab</h4>
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022</p>
+                        <p><span style="font-weight: bold;">Phone:</span> +1 5589 55488 55</p>
+                        <p><span style="font-weight: bold;">Email:</span> info@example.com</p>
+                        <div class="row">
+                            <div>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-md-2" id="footerheading">
+                        <h4>Useful Links</h4>
+                        <p>Home</p>
+                        <p>About us</p>
+                        <p>Services</p>
+                        <p>Terms of service</p>
+                        <p>Privacy policy</p>
+                    </div>
+                    <div class="col-md-2" id="footerheading">
+                        <h4>Content</h4>
+                        <p>Home</p>
+                        <p>About</p>
+                        <p>Services</p>
+                        <p>Doctors</p>
+                        <p>Locations</p>
+                    </div>
+                    <div class="col-md-2" id="footerheading">
+                        <h4>Our Services</h4>
+                        <p>Pediatrics</p>
+                        <p>Surgeries/p>
+                        <p>Lab Operations</p>
+                        <p>Eye Care</p>
+                        <p>Consultation</p>
+                    </div>
+                    <div class="col-md-2" id="footerheading">
+                        <h4>Locations</h4>
+                        <p>Nigeria</p>
+                        <p>New York</p>
+                        <p>Cameroon</p>
+                        <p>Texas</p>
+                        <p>Los Angeles</p>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center">© Copyright Medilab All Rights Reserved
+                    <br>
+                    Designed by <span>Osuindedev</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("btn04").addEventListener("click", function () {
+            alert("Your message has been sent successfully!");
+        });
+
+        document.getElementById("bookingbtn").addEventListener("click", function () {
+            alert("You have succesfully booked a Table!");
+        });
+
+        document.getElementById("bookings01").addEventListener("click", function () {
+            alert("You have succesfully booked an Appointment! You'll get a mail shortly.");
+        });
+    </script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
